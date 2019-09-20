@@ -1,5 +1,5 @@
 interface PriceCalculator
 {
-	int calculate(Product product);
+	int calculateBill(Product product);
 
 }
