@@ -1,7 +1,7 @@
 class BillGenerator implements PriceCalculator
 {
 
-	int calculator(Product product)
+	int calculateBill(Product product)
 	{
 		return product.getQuantity()*(product.getPrice()+(product.getPrice() * product.getSlab()/100))
 	}
